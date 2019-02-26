@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Banner from './components/Banner';
 import Footer from './components/Footer';
-import Main from './components/Main';
+import Projects from './components/Projects';
 
 
 class App extends Component {
@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div>
         <Banner />
-        <Main />
+        <Projects />
         <Footer />
       </div>
     );

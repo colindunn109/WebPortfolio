@@ -3,7 +3,7 @@ import temp from '../images/gallery-image1.jpg';
 
 
 
-const Box = props => (
+const Project = props => (
   <div className="box">
      <a href="https://youtu.be/s6zR2T9vn2c" className="image fit"><img src={temp} alt="" /></a>
      <div className="inner">
@@ -15,4 +15,4 @@ const Box = props => (
 
 );
 
-export default Box;
+export default Project;

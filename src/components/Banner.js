@@ -5,7 +5,7 @@ const Banner = () => (
 	   <div className="inner">
 	     <header>
 		     <h1>Colin Dunn</h1>
-				 <p>Fullstack Developer</p>
+				 <p>Fullstack Developer | Software Engineer</p>
 			 </header>
 		 </div>
 	</section>

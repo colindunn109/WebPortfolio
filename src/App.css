@@ -1032,7 +1032,12 @@
 /* Banner */
 .main-home {
   background: url('./images/SanFrancisco2.jpg') no-repeat;
-  height: 50vh;
+  height: 100vh;
+}
+
+.projects-banner {
+  background: url('./images/compsci.jpg') no-repeat;
+  height: 70vh;
 }
 
 	#banner {

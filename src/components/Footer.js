@@ -7,9 +7,9 @@ const Footer = () => (
   <div>
     <footer id="footer">
           <div className="inner">
-            <h2>Etiam veroeros lorem</h2>
+            <h2>Contact Me!</h2>
             <br/>
-            <h6 color="white">Pellentesque eleifend malesuada efficitur. Curabitur volutpat dui mi, ac imperdiet dolor tincidunt nec. Ut erat lectus, dictum sit amet lectus a, aliquet rutrum mauris. Etiam nec lectus hendrerit, consectetur risus viverra, iaculis orci. Phasellus eu nibh ut mi luctus auctor. Donec sit amet dolor in diam feugiat venenatis. </h6>
+            <h6 color="white">If you would like to reach about to me for possible inquiries you can contact me at cjdunn109@gmail.com</h6>
 
             <ul className="icons">
               <li><a href="https://www.linkedin.com/in/colin-dunn-80a137172/">
