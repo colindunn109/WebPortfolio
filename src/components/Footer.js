@@ -13,7 +13,7 @@ const Footer = () => (
 
             <ul className="icons">
               <li><a href="https://www.linkedin.com/in/colin-dunn-80a137172/">
-                fa Linkedin
+                faLinkedin
               </a></li>
 
               <li><a href="https://www.github.com/colindunn109">

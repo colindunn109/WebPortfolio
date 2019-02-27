@@ -7,6 +7,7 @@ import {Row}  from 'react-bootstrap';
 
 const Work = () => (
   <div id="main" className="main-container">
+  <br/>
     <div className="inner">
       <section id="banner" className="main-work">
     	     <header>

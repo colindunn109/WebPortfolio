@@ -8,7 +8,6 @@ const Aboutme = () => (
 	   <div className="inner">
         <section id="banner" className="aboutme-banner"><header><h1>About me</h1></header></section>
         <br/>
-        <AboutHeadline />
         <Bio />
       </div>
   </div>

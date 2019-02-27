@@ -911,6 +911,16 @@
   height: 100vh;
 }
 
+.devide-left {
+	width: 50%;
+	float:left;
+}
+
+.devide-right {
+	width: 50%;
+	float:right;
+}
+
 .main-work {
   background: url('./images/Work.jpg') no-repeat;
   height: 70vh;

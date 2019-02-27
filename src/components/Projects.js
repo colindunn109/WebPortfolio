@@ -3,7 +3,14 @@ import Project from './Project';
 
 import {Col, Row }  from 'react-bootstrap';
 import portfolio from '../images/Portfolio.jpg';
-
+import neo from '../images/Neo.jpg';
+import ravr from '../images/Ravr.jpg';
+import recipe from '../images/Recipe.jpg';
+import morning from '../images/Morning.jpg';
+import coding from '../images/Coding.jpg';
+import python from '../images/Python.jpg';
+import django from '../images/Django.jpg';
+import react from '../images/React.jpg';
 
 
 
@@ -15,22 +22,22 @@ const Projects = () => (
         <div className="thumnails">
           <Row>
             <Col>
-              <Project codeLink = "https://github.com/colindunn109/Ravr" title = "Ravr" description = "A Django website built to help those who love EDM and music festivals connect and share (In progress)"/>
+              <Project codeLink = "https://github.com/colindunn109/Ravr" image = {ravr} title = "Ravr" description = "A Django website built to help those who love EDM and music festivals connect and share (In progress)"/>
             </Col>
             <Col>
-              <Project codeLink = "https://github.com/zdolson/Neo-Market" title = "NeoMarket" description = "A blockchain and react e-commerce application that allows user to exchange goods using cryptocurrency over a powerful blockchain backend"/>
+              <Project codeLink = "https://github.com/zdolson/Neo-Market" image = {neo} title = "NeoMarket" description = "A blockchain and react e-commerce application that allows user to exchange goods using cryptocurrency over a powerful blockchain backend"/>
             </Col>
             <Col>
-              <Project codeLink = "https://github.com/colindunn109/RecipeSearch" title = "RecipeSearch" description = "A React application that pulls from an external API to allow a user to view a variety of different recipes"/>
+              <Project codeLink = "https://github.com/colindunn109/RecipeSearch" image = {recipe} title = "RecipeSearch" description = "A React application that pulls from an external API to allow a user to view a variety of different recipes"/>
             </Col>
           </Row>
 
           <Row>
             <Col>
-              <Project codeLink = "https://github.com/colindunn109/MorningDigest" title = "MorningDigest" description = "A Django built web application that scrubs popular news article sites across multiple medians and compiles them into a neat UI"/>
+              <Project codeLink = "https://github.com/colindunn109/MorningDigest" image = {morning} title = "MorningDigest" description = "A Django built web application that scrubs popular news article sites across multiple medians and compiles them into a neat UI"/>
             </Col>
             <Col>
-              <Project codeLink = "https://github.com/colindunn109/DjangoReddit" title = "DjangoReddit" description = "A Django application built to clone the popular social media site, reddit"/>
+              <Project codeLink = "https://github.com/colindunn109/DjangoReddit" image = {django}title = "DjangoReddit" description = "A Django application built to clone the popular social media site, reddit"/>
             </Col>
             <Col>
               <Project codeLink = "https://github.com/colindunn109/WebPorfolio" image = {portfolio} title = "WebPorfolio" description = "A React application to showcase all of my projects, skills and experiences allowing recruiters to see my talent"/>
@@ -39,13 +46,13 @@ const Projects = () => (
 
           <Row>
             <Col>
-              <Project codeLink = "https://github.com/colindunn109/MovieSentimentAnalysis" title = "MovieSentimentAnalysis" description = "Python application that utilizes machine learning's logisitical regression model to perform sentiment analysis on movie reviews"/>
+              <Project codeLink = "https://github.com/colindunn109/MovieSentimentAnalysis" image = {python} title = "MovieSentimentAnalysis" description = "Python application that utilizes machine learning's logisitical regression model to perform sentiment analysis on movie reviews"/>
             </Col>
             <Col>
-              <Project codeLink = "https://github.com/colindunn109/CryptoPredicter" title = "CryptoPredicter" description = "Python application that scrubs popular social media sites, and performs sentiment analysis to determine how public opinion effects crypto prices"/>
+              <Project codeLink = "https://github.com/colindunn109/CryptoPredicter" image = {python} title = "CryptoPredicter" description = "Python application that scrubs popular social media sites, and performs sentiment analysis to determine how public opinion effects crypto prices"/>
             </Col>
             <Col>
-              <Project codeLink = "https://github.com/colindunn109/WeatherApp" title = "WeatherApp" description = "A React application that pulls from an external weather API to see the temperature, conditions, and climate of a given city"/>
+              <Project codeLink = "https://github.com/colindunn109/WeatherApp" image = {react} title = "WeatherApp" description = "A React application that pulls from an external weather API to see the temperature, conditions, and climate of a given city"/>
             </Col>
           </Row>
 

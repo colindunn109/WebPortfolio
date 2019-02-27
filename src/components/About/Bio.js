@@ -4,7 +4,6 @@ import {Col, Row }  from 'react-bootstrap';
 
 const Bio= () => (
   <div>
-    <h1 align="center">Bio</h1><br/>
     <Row>
       <Col>
         <div className="box">
@@ -25,7 +24,7 @@ const Bio= () => (
         <div className="box">
           <h3>Professional</h3>
           <div className="inner">
-            <h6>I attended UC Santa Cruz from October 2014 - December 2018. During my time here, I completed my Bachelors Degree
+            <h6>Im a newly graduated alumni from UC Santa Cruz, October 2014 - December 2018. During my time here, I completed my Bachelors Degree
                 taking key courses such as software development, machine learning, analysis of algorithms andadvanced programming.
                 As I grew as a programming and developer, I began realizing how much of a passion I had for developing a well rounded
                 idea of all the various technologies that interested me. So began my journey of dipping my toes in all types of different
