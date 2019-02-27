@@ -1,6 +1,5 @@
 import React from 'react';
 import Project from './Project';
-import ProjectBanner from '../images/compsci.jpg';
 
 import {Col, Row }  from 'react-bootstrap';
 

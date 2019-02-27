@@ -1035,8 +1035,18 @@
   height: 100vh;
 }
 
+.main-skills {
+  background: url('./images/SanFrancisco.jpg') no-repeat;
+  height: 70vh;
+}
+
 .projects-banner {
   background: url('./images/compsci.jpg') no-repeat;
+  height: 70vh;
+}
+
+.aboutme-banner {
+  background: url('./images/contact-bg.jpg') no-repeat;
   height: 70vh;
 }
 

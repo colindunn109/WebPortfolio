@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Banner from './components/Banner';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
+import Aboutme from './components/About/Aboutme';
+import Skills from './components/Skills';
 
 
 class App extends Component {
@@ -11,6 +13,8 @@ class App extends Component {
     return (
       <div>
         <Banner />
+        <Aboutme />
+        <Skills />
         <Projects />
         <Footer />
       </div>

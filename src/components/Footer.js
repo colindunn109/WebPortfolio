@@ -1,6 +1,6 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
+//import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+//import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
 
 
 const Footer = () => (
@@ -13,11 +13,19 @@ const Footer = () => (
 
             <ul className="icons">
               <li><a href="https://www.linkedin.com/in/colin-dunn-80a137172/">
-                <FontAwesomeIcon icon={faLinkedin} size={"2x"}/>
+                fa Linkedin
               </a></li>
 
               <li><a href="https://www.github.com/colindunn109">
-                <FontAwesomeIcon icon={faGithub} size={"2x"}/>
+                fa Github
+              </a></li>
+
+              <li><a href="https://www.github.com/colindunn109">
+                fa Resume
+              </a></li>
+
+              <li><a href="https://www.github.com/colindunn109">
+                fa Email
               </a></li>
             </ul>
             <p className="copyright">&copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a></p>

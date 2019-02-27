@@ -6,6 +6,7 @@ const Banner = () => (
 	     <header>
 		     <h1>Colin Dunn</h1>
 				 <p>Fullstack Developer | Software Engineer</p>
+         <p>Actively searching for work</p>
 			 </header>
 		 </div>
 	</section>
