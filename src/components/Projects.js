@@ -2,6 +2,8 @@ import React from 'react';
 import Project from './Project';
 
 import {Col, Row }  from 'react-bootstrap';
+import portfolio from '../images/Portfolio.jpg';
+
 
 
 
@@ -31,7 +33,7 @@ const Projects = () => (
               <Project codeLink = "https://github.com/colindunn109/DjangoReddit" title = "DjangoReddit" description = "A Django application built to clone the popular social media site, reddit"/>
             </Col>
             <Col>
-              <Project codeLink = "https://github.com/colindunn109/WebPorfolio" title = "WebPorfolio" description = "A React application to showcase all of my projects, skills and experiences allowing recruiters to see my talent"/>
+              <Project codeLink = "https://github.com/colindunn109/WebPorfolio" image = {portfolio} title = "WebPorfolio" description = "A React application to showcase all of my projects, skills and experiences allowing recruiters to see my talent"/>
             </Col>
           </Row>
 

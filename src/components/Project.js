@@ -5,7 +5,7 @@ import temp from '../images/gallery-image1.jpg';
 
 const Project = props => (
   <div className="box">
-     <a href="https://youtu.be/s6zR2T9vn2c" className="image fit"><img src={temp} alt="" /></a>
+     <a href="https://youtu.be/s6zR2T9vn2c" className="image fit"><img src={props.image} alt={temp} /></a>
      <div className="inner">
           <h3>{props.title}</h3>
           <h6>{props.description}</h6>

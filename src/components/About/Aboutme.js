@@ -1,6 +1,5 @@
 import React from 'react';
 import AboutHeadline from './AboutHeadline';
-import Work from './Work';
 import Bio from './Bio';
 
 
@@ -11,7 +10,6 @@ const Aboutme = () => (
         <br/>
         <AboutHeadline />
         <Bio />
-        <Work />
       </div>
   </div>
 );
