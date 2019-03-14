@@ -11,6 +11,8 @@ import coding from '../images/Coding.jpg';
 import python from '../images/Python.jpg';
 import django from '../images/Django.jpg';
 import react from '../images/React.jpg';
+import devconect from '../images/Devconnector.jpg';
+import indev from '../images/inDev.jpg';
 
 
 
@@ -22,13 +24,13 @@ const Projects = () => (
         <div className="thumnails">
           <Row>
             <Col>
-              <Project codeLink = "https://github.com/colindunn109/Ravr" image = {ravr} title = "Ravr" description = "A Django website built to help those who love EDM and music festivals connect and share (In progress)"/>
+              <Project codeLink = "https://github.com/colindunn109/GetUp" image = {indev} title = "Get Up!" description = "A MERN stack web application integrated with Google Maps API focusing on helping people find new life experiences and providing a data visualization of places been and places to go. Based on Airbnb."/>
             </Col>
             <Col>
               <Project codeLink = "https://github.com/zdolson/Neo-Market" image = {neo} title = "NeoMarket" description = "A blockchain and react e-commerce application that allows user to exchange goods using cryptocurrency over a powerful blockchain backend"/>
             </Col>
             <Col>
-              <Project codeLink = "https://github.com/colindunn109/RecipeSearch" image = {recipe} title = "RecipeSearch" description = "A React application that pulls from an external API to allow a user to view a variety of different recipes"/>
+              <Project codeLink = "https://github.com/colindunn109/DevConnector" image = {devconect} title = "DevConnector" description = "A MERN stack web application to help developers share theyre skills, projects and experiences with eachother. Think, LinkedIn for developers!"/>
             </Col>
           </Row>
 
@@ -37,10 +39,10 @@ const Projects = () => (
               <Project codeLink = "https://github.com/colindunn109/MorningDigest" image = {morning} title = "MorningDigest" description = "A Django built web application that scrubs popular news article sites across multiple medians and compiles them into a neat UI"/>
             </Col>
             <Col>
-              <Project codeLink = "https://github.com/colindunn109/DjangoReddit" image = {django}title = "DjangoReddit" description = "A Django application built to clone the popular social media site, reddit"/>
+              <Project codeLink = "https://github.com/colindunn109/Ravr" image = {ravr} title = "Ravr" description = "A Django website built to help those who love EDM and music festivals connect and share (In progress)"/>
             </Col>
             <Col>
-              <Project codeLink = "https://github.com/colindunn109/WebPorfolio" image = {portfolio} title = "WebPorfolio" description = "A React application to showcase all of my projects, skills and experiences allowing recruiters to see my talent"/>
+              <Project codeLink = "https://github.com/colindunn109/RecipeSearch" image = {recipe} title = "RecipeSearch" description = "A React application that pulls from an external API to allow a user to view a variety of different recipes"/>
             </Col>
           </Row>
 
