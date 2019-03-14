@@ -34,7 +34,7 @@ const Bio= () => (
                 I decided I wanted to pursue Fullstack development.
             </h6>
             <h6>
-              I took three courses to develop my knowledge, Fullstack Django development, React development, and Django REST Framework.
+              I took three courses to develop my knowledge, Fullstack Django development, React development, and MERN stack web development.
               I believed this would be a very good way to get me introduced to the basics of what I would need to build out some
               projects. From here, I self taught myself all of the gaps with databases, scaling, deployment, etc in order to make sure
               I could handle the tasks of a fullstack developer. I have now created, and still am developing several web applications
